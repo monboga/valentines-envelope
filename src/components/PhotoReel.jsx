@@ -6,31 +6,32 @@ const MY_MEDIA = [
     {
         id: 1,
         type: 'image',
-        src: '/photos/foto1.jpg',
+        src: './photos/foto1.jpg',
         caption: 'Nuestro primer recuerdo juntos...'
     },
     {
         id: 2,
         type: 'image',
-        src: '/photos/foto2.jpeg',
+
+        src: './photos/foto2.jpeg',
         caption: 'Esa noche donde el tiempo se detuvo.'
     },
     {
         id: 3,
         type: 'image',
-        src: '/photos/foto3.jpg',
+        src: './photos/foto3.jpg',
         caption: 'Un 14 de febrero ...'
     },
     {
         id: 4,
         type: 'video',
-        src: '/photos/video1.mp4',
+        src: './photos/video1.mp4',
         caption: 'Nuestro aniversario ...'
     },
     {
         id: 5,
         type: 'image',
-        src: '/photos/foto4.jpeg',
+        src: './photos/foto4.jpeg',
         caption: 'Y todas las sonrisas que faltan por venir.'
     }
 ];

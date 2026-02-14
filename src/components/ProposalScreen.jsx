@@ -56,7 +56,7 @@ export default function ProposalScreen() {
                         2. Si es PNG transparente se verá mejor.
                      */}
                      <img
-                         src="/photos/snoopy-seal.jpg" 
+                         src="./photos/snoopy-seal.jpg" 
                          alt="Snoopy seal"
                          className="w-full h-full object-cover"
                          onError={(e) => { 
@@ -108,7 +108,7 @@ export default function ProposalScreen() {
             >
               <div className="w-64 h-64 md:w-80 md:h-80 bg-white p-4 rounded-2xl shadow-xl rotate-2 mb-8 border-2 border-rose-200">
                 <img 
-                  src="/photos/yes-proposal.gif" 
+                  src="./photos/yes-proposal.gif" 
                   alt="¡Dijo que sí!" 
                   className="w-full h-full object-cover rounded-xl"
                   onError={(e) => {
@@ -134,7 +134,7 @@ export default function ProposalScreen() {
             >
               <div className="w-64 h-64 md:w-80 md:h-80 bg-white p-4 rounded-2xl shadow-xl -rotate-2 mb-8 border-2 border-slate-200">
                 <img 
-                  src="/photos/no-proposal.jpg" 
+                  src="./photos/no-proposal.jpg" 
                   alt="Dijo que no :(" 
                   className="w-full h-full object-cover rounded-xl"
                   onError={(e) => {
