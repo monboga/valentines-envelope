@@ -38,7 +38,7 @@ export default function FloatingPetals({ delay }) {
     >
       {/* EL REFACTOR: Usamos la etiqueta <img> en lugar del div con gradientes */}
       <img 
-        src="/photos/red-petal.png" 
+        src="./photos/red-petal.png" 
         alt="Pétalo cayendo"
         // Aumenté el tamaño base (w-6 a w-10) porque las imágenes suelen necesitar 
         // más área que un div de color sólido. Usa drop-shadow para respetar la transparencia.
