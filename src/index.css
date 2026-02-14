@@ -1,1 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@400;600&display=swap');
+
+/* Tailwind v4 magic */
 @import "tailwindcss";
+
+.font-handwriting {
+  font-family: 'Great Vibes', cursive;
+}
+.font-body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.paper-texture {
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Ocultar scrollbar pero permitir scroll funcional */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
