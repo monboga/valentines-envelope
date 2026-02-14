@@ -12,6 +12,7 @@ const MY_MEDIA = [
     {
         id: 2,
         type: 'image',
+
         src: './photos/foto2.jpeg',
         caption: 'Esa noche donde el tiempo se detuvo.'
     },
